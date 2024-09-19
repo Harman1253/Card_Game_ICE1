@@ -53,5 +53,9 @@ public class CardTrick {
         } else {
             System.out.println("Your card was not found in the magic hand.");
         }
+        Card luckyCard = new Card();
+        luckyCard.setValue(2);
+        luckyCard.setSuit("Clubs");
+        System.out.println("Lucky card is: " + luckyCard.getValue() + " of " + luckyCard.getSuit());
     }
 }
