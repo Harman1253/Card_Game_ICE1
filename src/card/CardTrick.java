@@ -56,6 +56,6 @@ public class CardTrick {
         Card luckyCard = new Card();
         luckyCard.setValue(2);
         luckyCard.setSuit("Clubs");
-        System.out.println("Lucky card is: " + luckyCard.getValue() + " of " + luckyCard.getSuit());
+        System.out.println("Lucky card is: " + luckyCard.getValue() + " of " + luckyCard.getSuit());//
     }
 }
